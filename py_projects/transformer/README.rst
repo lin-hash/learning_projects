@@ -24,7 +24,8 @@ Usage
 6. **加权求和**：通过将值矩阵与注意力权重相乘并求和来得到最终输出。
 
 直接运行示例脚本查看Self-Attention计算过程：
-    python self_attention_1.py
+
+     python self_attention_1.py
 
 Installation
 ------------
