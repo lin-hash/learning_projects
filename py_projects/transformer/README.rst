@@ -48,7 +48,7 @@ MIT License. See LICENSE for more details.
 Authors
 -------
 
-`transformer` was written by `lin-hash <j2532206252@qq.com>`_.
+`transformer` was written by `lin-hash <2532206252@qq.com>`_.
 
 Reference
 -------

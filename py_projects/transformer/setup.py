@@ -19,8 +19,8 @@ setup(
     url="https://github.com/kragniz/cookiecutter-pypackage-minimal",
     license='MIT',
 
-    author="linjingyi",
-    author_email="jzxxxiaolin@163.com",
+    author="lin-hash",
+    author_email="2532206252@qq.com",
 
     description="An opinionated, minimal cookiecutter template for Python packages",
     long_description=read("README.rst"),

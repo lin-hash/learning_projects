@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6af759af-5f4d-40c4-bb5b-b196d86fa3d5" name="变更" comment="添加依赖">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transformer/Self_Attention_1.py" afterDir="false" />
+    <list default="true" id="6af759af-5f4d-40c4-bb5b-b196d86fa3d5" name="变更" comment="添加内容">
       <change afterPath="$PROJECT_DIR$/transformer/transformer_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/transformer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/transformer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +108,28 @@
       <option name="project" value="LOCAL" />
       <updated>1740644360193</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="手动实现计算Self-Attention的实现">
+      <created>1740646897882</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740646897882</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加内容">
+      <created>1740646918712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740646918712</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加内容">
+      <created>1740647003194</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740647003194</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加依赖" />
+    <MESSAGE value="手动实现计算Self-Attention的实现" />
+    <MESSAGE value="添加内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加内容" />
   </component>
 </project>
