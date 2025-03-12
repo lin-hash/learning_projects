@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define MAX_LEN 1001 /* Buffer size for longest line */
+
 
 int main() {
    
@@ -12,65 +12,6 @@ int main() {
     ** 1.Print the message "Hello world!" to the standard output.
     */
     printf("Hello world\n");
-
-    /*
-    ** 2. 从标准输入复制到标准输出，并对输出行标号
-    ** 通过从输入中逐字符进行读取而不是逐行进行读取，可以避免长度限制
-    */
-    int ch;
-    int line;
-    int at_beginning;
-
-    line = 0;
-    at_beginning = 1;
-    // 读取字符并逐个处理
-    while( (ch = getchar()) != EOF ){
-        // 如果位于第一行的起始位置，打印行号
-        if(at_beginning == 1){
-            at_beginning = 0;
-            line++;
-            printf("%d ",line);
-        }
-
-        // 打印字符，并对行尾进行检查。
-        putchar( ch );
-        if( ch == '\n')
-            at_beginning = 1;
-
-    }
-
-    /*
-    ** 4. Reads lines of input from the standard input and prints the longest line that
-    ** was found to the standard output. It is assumed that no line will exceed
-    Solution 1.4 continued ** 1000 characters.
-    */
-    char input[ MAX_LEN ];
-    int len;
-    char longest[ MAX_LEN ];
-    int longest_len;
-    /*
-    ** Initialize length of the longest line found so far.
-    */
-    longest_len = -1;
-    /*
-    ** Read input lines, one by one.
-    */
-    while( gets( input ) != NULL ){
-        /*
-        ** Get length of this line. If it is longer than the previous
-        ** longest line, save this line.
-        */
-        len = strlen( input );
-        if( len > longest_len ){
-            longest_len = len;
-            strcpy( longest, input );
-        }
-    }
-    /*
-    ** If we saved any line at all from the input, print it now.
-    */
-    if( longest_len >= 0 )
-    puts( longest );
 
     /* 
     ** `printf` 的格式化和骚操作
@@ -93,6 +34,7 @@ int main() {
     //%*d 中的 * 被替换为 5，表示宽度为 5。
     //10 被格式化为 " 10"（前面补 3 个空格）。
     //输出： Width trick:    10
+    
     printf ("%s \n", "A string");        //A string
 
     char str1[15];
