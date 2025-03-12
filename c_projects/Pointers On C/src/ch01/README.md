@@ -37,13 +37,15 @@
    fgets函数要求数组的长度作为参数传递给它，就不会出现此问题。
 
 ### 编程练习
-5. /*
+5. ``` C
+   /*
 		** If the input line isn't this long or the output
 		** array is full, we're done.
 		*/
 		if( columns[col] >= len ||
 		    output_col == MAX_INPUT - 1 )
 			break;
+   ```
    当字符的列范围超出输入行的末尾时就停止复制，修改这句使列范围不是按列读取时也能正确完成任务：
    ``` C
       /*
