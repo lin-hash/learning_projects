@@ -29,7 +29,7 @@
     ``` C
     enum Change { PENNY = 1, NICKEL = 5, DIME = 10, QUARTER = 25, HALF_DOLLAR = 50, DOLLAR = 100 };
     ```
-7. ![alt text](O4A%RL]QRJVE@$TB1$FEB]1.png)
+7. ![alt text](O4A%RL]QRJVE@$TB1$FEB]1.png)  
     不确定。**枚举类型是拿整型来存储的**，但是这里是 %s 格式化字符串打印，则输出是不确定的。如果是 %d 则输出 32 48。
 8. 你所使用的C编译器是否允许程序修改字符串常量?是否存在编译器选项，允许或禁止你修改字符串常量?  
    不允许。vs2019 应该可以看，vscode 还没摸索这个问题。
